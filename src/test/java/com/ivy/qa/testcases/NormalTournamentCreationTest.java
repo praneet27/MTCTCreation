@@ -24,15 +24,10 @@ public class NormalTournamentCreationTest {
 	
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-
-		
-//		ChromeOptions options=new ChromeOptions();
-//		options.addArguments("window-size=1400,800");
-//		options.addArguments("headless");
 		
 		 prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\kkumar4\\Java_Selenium_WorkSpace\\WorkLocation\\src\\input.properties");
+				"C:\\Users\\kkumar4\\Java_Selenium_WorkSpace\\MTCTCreation\\src\\main\\java\\com\\ivy\\qa\\config\\input.properties");
 		prop.load(fis);
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\kkumar4\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
