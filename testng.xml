@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.ivy.qa.testcases">
+  <test name="Create MTCT Template">
+   <classes>
+      <class name="com.ivy.qa.testcases.TournamentCreationTest"/>
+       </classes>
+      </test>
+      
+    <test name="Approve Created MTCT Template">
+         <classes>
+      <class name="com.ivy.qa.testcases.QuickApproveTest"/>
+       </classes>
+      </test>
+      <test name="Open ScheduleId,Click on Instance and Run tournament">
+         <classes>
+      <class name="com.ivy.qa.testcases.RunTournamentTest"/>
+       </classes>
+      </test>  
+   <!-- Test -->
+</suite> <!-- Suite -->

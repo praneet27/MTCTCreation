@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.ivy.qa.testcases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Open ScheduleId,Click on Instance and Run tournament(failed)">
+    <classes>
+      <class name="com.ivy.qa.testcases.RunTournamentTest">
+        <methods>
+          <include name="runTournament"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ivy.qa.testcases.RunTournamentTest -->
+    </classes>
+  </test> <!-- Open ScheduleId,Click on Instance and Run tournament(failed) -->
+</suite> <!-- Failed suite [com.ivy.qa.testcases] -->

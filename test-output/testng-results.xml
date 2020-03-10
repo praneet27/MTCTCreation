@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-10T18:49:33 IST" name="com.ivy.qa.testcases" finished-at="2020-03-10T18:51:00 IST" duration-ms="87566">
+    <groups>
+    </groups>
+    <test started-at="2020-03-10T18:49:33 IST" name="Create MTCT Template" finished-at="2020-03-10T18:50:11 IST" duration-ms="38608">
+      <class name="com.ivy.qa.testcases.TournamentCreationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ivy.qa.testcases.TournamentCreationTest@77167fb7]" started-at="2020-03-10T18:49:33 IST" name="setup" finished-at="2020-03-10T18:49:37 IST" duration-ms="4875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoToBackOfficePage()[pri:1, instance:com.ivy.qa.testcases.TournamentCreationTest@77167fb7]" started-at="2020-03-10T18:49:37 IST" name="GoToBackOfficePage" finished-at="2020-03-10T18:49:38 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToBackOfficePage -->
+        <test-method signature="Login()[pri:2, instance:com.ivy.qa.testcases.TournamentCreationTest@77167fb7]" started-at="2020-03-10T18:49:38 IST" name="Login" finished-at="2020-03-10T18:49:39 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="clickOnAdminTools()[pri:3, instance:com.ivy.qa.testcases.TournamentCreationTest@77167fb7]" started-at="2020-03-10T18:49:39 IST" name="clickOnAdminTools" finished-at="2020-03-10T18:49:40 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAdminTools -->
+        <test-method signature="clickOnGameConfig()[pri:4, instance:com.ivy.qa.testcases.TournamentCreationTest@77167fb7]" started-at="2020-03-10T18:49:40 IST" name="clickOnGameConfig" finished-at="2020-03-10T18:49:40 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGameConfig -->
+        <test-method signature="clickOnMTCTAdmin()[pri:5, instance:com.ivy.qa.testcases.TournamentCreationTest@77167fb7]" started-at="2020-03-10T18:49:40 IST" name="clickOnMTCTAdmin" finished-at="2020-03-10T18:49:40 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMTCTAdmin -->
+        <test-method signature="clickOnMTCTTemplates()[pri:6, instance:com.ivy.qa.testcases.TournamentCreationTest@77167fb7]" started-at="2020-03-10T18:49:40 IST" name="clickOnMTCTTemplates" finished-at="2020-03-10T18:49:40 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMTCTTemplates -->
+        <test-method signature="clickOnCreateTemplate()[pri:7, instance:com.ivy.qa.testcases.TournamentCreationTest@77167fb7]" started-at="2020-03-10T18:49:40 IST" name="clickOnCreateTemplate" finished-at="2020-03-10T18:49:40 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCreateTemplate -->
+        <test-method signature="createTemplate()[pri:8, instance:com.ivy.qa.testcases.TournamentCreationTest@77167fb7]" started-at="2020-03-10T18:49:40 IST" name="createTemplate" finished-at="2020-03-10T18:50:11 IST" duration-ms="30275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTemplate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ivy.qa.testcases.TournamentCreationTest@77167fb7]" started-at="2020-03-10T18:50:11 IST" name="tearDown" finished-at="2020-03-10T18:50:11 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ivy.qa.testcases.TournamentCreationTest -->
+    </test> <!-- Create MTCT Template -->
+    <test started-at="2020-03-10T18:50:11 IST" name="Approve Created MTCT Template" finished-at="2020-03-10T18:50:20 IST" duration-ms="8767">
+      <class name="com.ivy.qa.testcases.QuickApproveTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ivy.qa.testcases.QuickApproveTest@7f010382]" started-at="2020-03-10T18:50:11 IST" name="setup" finished-at="2020-03-10T18:50:15 IST" duration-ms="3345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoToBackOfficePage()[pri:1, instance:com.ivy.qa.testcases.QuickApproveTest@7f010382]" started-at="2020-03-10T18:50:15 IST" name="GoToBackOfficePage" finished-at="2020-03-10T18:50:15 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToBackOfficePage -->
+        <test-method signature="Login()[pri:2, instance:com.ivy.qa.testcases.QuickApproveTest@7f010382]" started-at="2020-03-10T18:50:15 IST" name="Login" finished-at="2020-03-10T18:50:17 IST" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="clickOnAdminTools()[pri:3, instance:com.ivy.qa.testcases.QuickApproveTest@7f010382]" started-at="2020-03-10T18:50:17 IST" name="clickOnAdminTools" finished-at="2020-03-10T18:50:17 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAdminTools -->
+        <test-method signature="clickOnGameConfig()[pri:4, instance:com.ivy.qa.testcases.QuickApproveTest@7f010382]" started-at="2020-03-10T18:50:17 IST" name="clickOnGameConfig" finished-at="2020-03-10T18:50:17 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGameConfig -->
+        <test-method signature="clickOnApprovalQueue()[pri:5, instance:com.ivy.qa.testcases.QuickApproveTest@7f010382]" started-at="2020-03-10T18:50:17 IST" name="clickOnApprovalQueue" finished-at="2020-03-10T18:50:17 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnApprovalQueue -->
+        <test-method signature="approveTemplate()[pri:6, instance:com.ivy.qa.testcases.QuickApproveTest@7f010382]" started-at="2020-03-10T18:50:17 IST" name="approveTemplate" finished-at="2020-03-10T18:50:19 IST" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveTemplate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ivy.qa.testcases.QuickApproveTest@7f010382]" started-at="2020-03-10T18:50:19 IST" name="tearDown" finished-at="2020-03-10T18:50:20 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ivy.qa.testcases.QuickApproveTest -->
+    </test> <!-- Approve Created MTCT Template -->
+    <test started-at="2020-03-10T18:50:20 IST" name="Open ScheduleId,Click on Instance and Run tournament" finished-at="2020-03-10T18:51:00 IST" duration-ms="40091">
+      <class name="com.ivy.qa.testcases.RunTournamentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ivy.qa.testcases.RunTournamentTest@5ccddd20]" started-at="2020-03-10T18:50:20 IST" name="setup" finished-at="2020-03-10T18:50:23 IST" duration-ms="3248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoToBackOfficePage()[pri:1, instance:com.ivy.qa.testcases.RunTournamentTest@5ccddd20]" started-at="2020-03-10T18:50:23 IST" name="GoToBackOfficePage" finished-at="2020-03-10T18:50:24 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToBackOfficePage -->
+        <test-method signature="Login()[pri:2, instance:com.ivy.qa.testcases.RunTournamentTest@5ccddd20]" started-at="2020-03-10T18:50:24 IST" name="Login" finished-at="2020-03-10T18:50:25 IST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="clickOnAdminTools()[pri:3, instance:com.ivy.qa.testcases.RunTournamentTest@5ccddd20]" started-at="2020-03-10T18:50:25 IST" name="clickOnAdminTools" finished-at="2020-03-10T18:50:25 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAdminTools -->
+        <test-method signature="clickOnGameConfig()[pri:4, instance:com.ivy.qa.testcases.RunTournamentTest@5ccddd20]" started-at="2020-03-10T18:50:25 IST" name="clickOnGameConfig" finished-at="2020-03-10T18:50:25 IST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGameConfig -->
+        <test-method signature="showScheduleForCreatedTemplate()[pri:5, instance:com.ivy.qa.testcases.RunTournamentTest@5ccddd20]" started-at="2020-03-10T18:50:25 IST" name="showScheduleForCreatedTemplate" finished-at="2020-03-10T18:50:26 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showScheduleForCreatedTemplate -->
+        <test-method signature="runTournament()[pri:6, instance:com.ivy.qa.testcases.RunTournamentTest@5ccddd20]" started-at="2020-03-10T18:50:26 IST" name="runTournament" finished-at="2020-03-10T18:51:00 IST" duration-ms="33979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTournament -->
+      </class> <!-- com.ivy.qa.testcases.RunTournamentTest -->
+    </test> <!-- Open ScheduleId,Click on Instance and Run tournament -->
+  </suite> <!-- com.ivy.qa.testcases -->
+</testng-results>
