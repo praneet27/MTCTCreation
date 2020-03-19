@@ -12,6 +12,7 @@ import com.ivy.qa.base.TestBase;
 public class AdminToolsPage extends TestBase{
 
 	public WebDriverWait wait;
+	
 	@FindBy(xpath="//a[contains(text(),'Game Config')]")
 	WebElement gameConfig;
 	

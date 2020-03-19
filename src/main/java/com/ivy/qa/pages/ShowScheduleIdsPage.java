@@ -17,7 +17,7 @@ import com.ivy.qa.util.Xls_Reader;
 public class ShowScheduleIdsPage extends TestBase {
 
 	public static Xls_Reader reader;
-	WebDriverWait wait = new WebDriverWait(driver, 50);
+	WebDriverWait wait = new WebDriverWait(driver, 120);
 	public static String templateId;
 	TestUtil utilObject;
 	
@@ -106,6 +106,7 @@ public class ShowScheduleIdsPage extends TestBase {
 		Select changeStatusDropDown=new Select(selectStatusDropDown);
 		changeStatusDropDown.selectByVisibleText("Load Tables");
 		handleLocalAlerts();
+		specifyTemplatepropTab.click();
 		handleLocalAlerts();
 	}
 	public void handleLocalAlerts() throws InterruptedException {
