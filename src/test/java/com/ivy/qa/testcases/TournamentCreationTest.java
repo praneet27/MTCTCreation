@@ -90,7 +90,7 @@ public class TournamentCreationTest extends TestBase {
 	
 	@AfterTest
 	public void tearDown() {
-		driver.quit();
+		driver.close();
 	}
 	
 }

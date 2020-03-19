@@ -62,6 +62,6 @@ public class QuickApproveTest extends TestBase {
 	
 	@AfterTest
 	public void tearDown() {
-		driver.quit();
+		driver.close();
 	}
 }
